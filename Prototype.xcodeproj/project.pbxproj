@@ -7,14 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC0594289E9E0AB98C9C1456 /* libPods-PrototypeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98FE3B0BB664A1CB6CF2C562 /* libPods-PrototypeUITests.a */; };
+		C2736F2FE7E932E56F836B82 /* libPods-Prototype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C4304A7C24ED54E513643B /* libPods-Prototype.a */; };
+		E760655437C636E0090F848D /* libPods-PrototypeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB7126A9966F6A95AD8FB54 /* libPods-PrototypeTests.a */; };
 		F1433973204A1ADE00AA3A4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1433972204A1ADE00AA3A4B /* main.m */; };
 		F1433976204A1ADE00AA3A4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1433975204A1ADE00AA3A4B /* AppDelegate.m */; };
-		F1433979204A1ADE00AA3A4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1433978204A1ADE00AA3A4B /* ViewController.m */; };
-		F143397C204A1ADE00AA3A4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F143397A204A1ADE00AA3A4B /* Main.storyboard */; };
 		F143397E204A1ADE00AA3A4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F143397D204A1ADE00AA3A4B /* Assets.xcassets */; };
 		F1433981204A1ADE00AA3A4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F143397F204A1ADE00AA3A4B /* LaunchScreen.storyboard */; };
 		F143398C204A1ADE00AA3A4B /* PrototypeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F143398B204A1ADE00AA3A4B /* PrototypeTests.m */; };
 		F1433997204A1ADE00AA3A4B /* PrototypeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1433996204A1ADE00AA3A4B /* PrototypeUITests.m */; };
+		F14339A6204A1D2300AA3A4B /* SCPost.m in Sources */ = {isa = PBXBuildFile; fileRef = F14339A5204A1D2300AA3A4B /* SCPost.m */; };
+		F14339A9204A1E3B00AA3A4B /* SCUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F14339A8204A1E3B00AA3A4B /* SCUser.m */; };
+		F14339AD204A210B00AA3A4B /* SCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14339AC204A210B00AA3A4B /* SCTabBarController.m */; };
+		F14339B8204A268E00AA3A4B /* SCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14339B6204A268E00AA3A4B /* SCHomeViewController.m */; };
+		F14339B9204A268E00AA3A4B /* SCHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F14339B7204A268E00AA3A4B /* SCHomeViewController.xib */; };
+		F14339BA205283B600AA3A4B /* SCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14339B6204A268E00AA3A4B /* SCHomeViewController.m */; };
+		F14339BF2052845100AA3A4B /* SCHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F14339BD2052845100AA3A4B /* SCHomeTableViewCell.m */; };
+		F14339C02052845100AA3A4B /* SCHomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F14339BE2052845100AA3A4B /* SCHomeTableViewCell.xib */; };
+		F14339C42052BB5200AA3A4B /* SCUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F14339C32052BB5200AA3A4B /* SCUserManager.m */; };
+		F14339CC2052C29800AA3A4B /* SCPostManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F14339CB2052C29800AA3A4B /* SCPostManager.m */; };
+		F1CEEF0520542B53005AB81D /* SCSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CEEF0320542B53005AB81D /* SCSignInViewController.m */; };
+		F1CEEF0620542B53005AB81D /* SCSignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1CEEF0420542B53005AB81D /* SCSignInViewController.xib */; };
+		F1CEEF0D205435AF005AB81D /* SCCreatePostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CEEF0B205435AF005AB81D /* SCCreatePostViewController.m */; };
+		F1CEEF0E205435AF005AB81D /* SCCreatePostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1CEEF0C205435AF005AB81D /* SCCreatePostViewController.xib */; };
+		F1CEEF1120543B15005AB81D /* SCLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CEEF1020543B15005AB81D /* SCLocationManager.m */; };
+		F1CEEF1520544686005AB81D /* SCExploreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CEEF1320544686005AB81D /* SCExploreViewController.m */; };
+		F1CEEF1620544686005AB81D /* SCExploreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1CEEF1420544686005AB81D /* SCExploreViewController.xib */; };
+		F1E116B620545D570080D28C /* SCPostDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E116B420545D570080D28C /* SCPostDetailViewController.m */; };
+		F1E116B720545D570080D28C /* SCPostDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1E116B520545D570080D28C /* SCPostDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +55,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10C0757EF0842C50CB5658CD /* Pods-PrototypeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrototypeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrototypeTests/Pods-PrototypeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		11C4304A7C24ED54E513643B /* libPods-Prototype.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Prototype.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E9F33B40B3D177DA85D5F1 /* Pods-PrototypeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrototypeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrototypeUITests/Pods-PrototypeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		285A42F4EF835A3B004C103B /* Pods-PrototypeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrototypeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrototypeUITests/Pods-PrototypeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C69E20CE488B20274F1356F /* Pods-Prototype.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prototype.release.xcconfig"; path = "Pods/Target Support Files/Pods-Prototype/Pods-Prototype.release.xcconfig"; sourceTree = "<group>"; };
+		33FAB1654CB7DFBC53BC00C6 /* Pods-PrototypeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrototypeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrototypeTests/Pods-PrototypeTests.release.xcconfig"; sourceTree = "<group>"; };
+		4EA69965B724E6717CCB89E9 /* Pods-Prototype.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prototype.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Prototype/Pods-Prototype.debug.xcconfig"; sourceTree = "<group>"; };
+		7AB7126A9966F6A95AD8FB54 /* libPods-PrototypeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PrototypeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98FE3B0BB664A1CB6CF2C562 /* libPods-PrototypeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PrototypeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F143396E204A1ADE00AA3A4B /* Prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1433972204A1ADE00AA3A4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F1433974204A1ADE00AA3A4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F1433975204A1ADE00AA3A4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F1433977204A1ADE00AA3A4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F1433978204A1ADE00AA3A4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F143397B204A1ADE00AA3A4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F143397D204A1ADE00AA3A4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1433980204A1ADE00AA3A4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1433982204A1ADE00AA3A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +77,36 @@
 		F1433992204A1ADE00AA3A4B /* PrototypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrototypeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1433996204A1ADE00AA3A4B /* PrototypeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrototypeUITests.m; sourceTree = "<group>"; };
 		F1433998204A1ADE00AA3A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F14339A4204A1D2300AA3A4B /* SCPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPost.h; sourceTree = "<group>"; };
+		F14339A5204A1D2300AA3A4B /* SCPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCPost.m; sourceTree = "<group>"; };
+		F14339A7204A1E3B00AA3A4B /* SCUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCUser.h; sourceTree = "<group>"; };
+		F14339A8204A1E3B00AA3A4B /* SCUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCUser.m; sourceTree = "<group>"; };
+		F14339AB204A210B00AA3A4B /* SCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCTabBarController.h; sourceTree = "<group>"; };
+		F14339AC204A210B00AA3A4B /* SCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCTabBarController.m; sourceTree = "<group>"; };
+		F14339B5204A268E00AA3A4B /* SCHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHomeViewController.h; sourceTree = "<group>"; };
+		F14339B6204A268E00AA3A4B /* SCHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHomeViewController.m; sourceTree = "<group>"; };
+		F14339B7204A268E00AA3A4B /* SCHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCHomeViewController.xib; sourceTree = "<group>"; };
+		F14339BC2052845100AA3A4B /* SCHomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHomeTableViewCell.h; sourceTree = "<group>"; };
+		F14339BD2052845100AA3A4B /* SCHomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHomeTableViewCell.m; sourceTree = "<group>"; };
+		F14339BE2052845100AA3A4B /* SCHomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCHomeTableViewCell.xib; sourceTree = "<group>"; };
+		F14339C22052BB5200AA3A4B /* SCUserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCUserManager.h; sourceTree = "<group>"; };
+		F14339C32052BB5200AA3A4B /* SCUserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCUserManager.m; sourceTree = "<group>"; };
+		F14339CA2052C29800AA3A4B /* SCPostManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPostManager.h; sourceTree = "<group>"; };
+		F14339CB2052C29800AA3A4B /* SCPostManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCPostManager.m; sourceTree = "<group>"; };
+		F1CEEF0220542B53005AB81D /* SCSignInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCSignInViewController.h; sourceTree = "<group>"; };
+		F1CEEF0320542B53005AB81D /* SCSignInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCSignInViewController.m; sourceTree = "<group>"; };
+		F1CEEF0420542B53005AB81D /* SCSignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCSignInViewController.xib; sourceTree = "<group>"; };
+		F1CEEF0A205435AF005AB81D /* SCCreatePostViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCCreatePostViewController.h; sourceTree = "<group>"; };
+		F1CEEF0B205435AF005AB81D /* SCCreatePostViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCCreatePostViewController.m; sourceTree = "<group>"; };
+		F1CEEF0C205435AF005AB81D /* SCCreatePostViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCCreatePostViewController.xib; sourceTree = "<group>"; };
+		F1CEEF0F20543B15005AB81D /* SCLocationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCLocationManager.h; sourceTree = "<group>"; };
+		F1CEEF1020543B15005AB81D /* SCLocationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCLocationManager.m; sourceTree = "<group>"; };
+		F1CEEF1220544686005AB81D /* SCExploreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCExploreViewController.h; sourceTree = "<group>"; };
+		F1CEEF1320544686005AB81D /* SCExploreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCExploreViewController.m; sourceTree = "<group>"; };
+		F1CEEF1420544686005AB81D /* SCExploreViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCExploreViewController.xib; sourceTree = "<group>"; };
+		F1E116B320545D570080D28C /* SCPostDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCPostDetailViewController.h; sourceTree = "<group>"; };
+		F1E116B420545D570080D28C /* SCPostDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCPostDetailViewController.m; sourceTree = "<group>"; };
+		F1E116B520545D570080D28C /* SCPostDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCPostDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2736F2FE7E932E56F836B82 /* libPods-Prototype.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E760655437C636E0090F848D /* libPods-PrototypeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +130,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC0594289E9E0AB98C9C1456 /* libPods-PrototypeUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5654F88A2905FBB6AC75E975 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EA69965B724E6717CCB89E9 /* Pods-Prototype.debug.xcconfig */,
+				2C69E20CE488B20274F1356F /* Pods-Prototype.release.xcconfig */,
+				10C0757EF0842C50CB5658CD /* Pods-PrototypeTests.debug.xcconfig */,
+				33FAB1654CB7DFBC53BC00C6 /* Pods-PrototypeTests.release.xcconfig */,
+				285A42F4EF835A3B004C103B /* Pods-PrototypeUITests.debug.xcconfig */,
+				18E9F33B40B3D177DA85D5F1 /* Pods-PrototypeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D24E6F77D4CF8B9E5202828B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11C4304A7C24ED54E513643B /* libPods-Prototype.a */,
+				7AB7126A9966F6A95AD8FB54 /* libPods-PrototypeTests.a */,
+				98FE3B0BB664A1CB6CF2C562 /* libPods-PrototypeUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F1433965204A1ADE00AA3A4B = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +167,8 @@
 				F143398A204A1ADE00AA3A4B /* PrototypeTests */,
 				F1433995204A1ADE00AA3A4B /* PrototypeUITests */,
 				F143396F204A1ADE00AA3A4B /* Products */,
+				5654F88A2905FBB6AC75E975 /* Pods */,
+				D24E6F77D4CF8B9E5202828B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +185,12 @@
 		F1433970204A1ADE00AA3A4B /* Prototype */ = {
 			isa = PBXGroup;
 			children = (
+				F14339C12052BB1B00AA3A4B /* Manager */,
+				F14339BB2052840C00AA3A4B /* View */,
+				F14339AF204A223400AA3A4B /* Model */,
+				F14339AA204A20C500AA3A4B /* ViewController */,
 				F1433974204A1ADE00AA3A4B /* AppDelegate.h */,
 				F1433975204A1ADE00AA3A4B /* AppDelegate.m */,
-				F1433977204A1ADE00AA3A4B /* ViewController.h */,
-				F1433978204A1ADE00AA3A4B /* ViewController.m */,
-				F143397A204A1ADE00AA3A4B /* Main.storyboard */,
 				F143397D204A1ADE00AA3A4B /* Assets.xcassets */,
 				F143397F204A1ADE00AA3A4B /* LaunchScreen.storyboard */,
 				F1433982204A1ADE00AA3A4B /* Info.plist */,
@@ -140,6 +225,64 @@
 			path = PrototypeUITests;
 			sourceTree = "<group>";
 		};
+		F14339AA204A20C500AA3A4B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F14339AB204A210B00AA3A4B /* SCTabBarController.h */,
+				F14339AC204A210B00AA3A4B /* SCTabBarController.m */,
+				F14339B5204A268E00AA3A4B /* SCHomeViewController.h */,
+				F14339B6204A268E00AA3A4B /* SCHomeViewController.m */,
+				F14339B7204A268E00AA3A4B /* SCHomeViewController.xib */,
+				F1CEEF0220542B53005AB81D /* SCSignInViewController.h */,
+				F1CEEF0320542B53005AB81D /* SCSignInViewController.m */,
+				F1CEEF0420542B53005AB81D /* SCSignInViewController.xib */,
+				F1CEEF0A205435AF005AB81D /* SCCreatePostViewController.h */,
+				F1CEEF0B205435AF005AB81D /* SCCreatePostViewController.m */,
+				F1CEEF0C205435AF005AB81D /* SCCreatePostViewController.xib */,
+				F1CEEF1220544686005AB81D /* SCExploreViewController.h */,
+				F1CEEF1320544686005AB81D /* SCExploreViewController.m */,
+				F1CEEF1420544686005AB81D /* SCExploreViewController.xib */,
+				F1E116B320545D570080D28C /* SCPostDetailViewController.h */,
+				F1E116B420545D570080D28C /* SCPostDetailViewController.m */,
+				F1E116B520545D570080D28C /* SCPostDetailViewController.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		F14339AF204A223400AA3A4B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F14339A8204A1E3B00AA3A4B /* SCUser.m */,
+				F14339A7204A1E3B00AA3A4B /* SCUser.h */,
+				F14339A5204A1D2300AA3A4B /* SCPost.m */,
+				F14339A4204A1D2300AA3A4B /* SCPost.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F14339BB2052840C00AA3A4B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F14339BC2052845100AA3A4B /* SCHomeTableViewCell.h */,
+				F14339BD2052845100AA3A4B /* SCHomeTableViewCell.m */,
+				F14339BE2052845100AA3A4B /* SCHomeTableViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F14339C12052BB1B00AA3A4B /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				F14339C22052BB5200AA3A4B /* SCUserManager.h */,
+				F14339C32052BB5200AA3A4B /* SCUserManager.m */,
+				F14339CA2052C29800AA3A4B /* SCPostManager.h */,
+				F14339CB2052C29800AA3A4B /* SCPostManager.m */,
+				F1CEEF0F20543B15005AB81D /* SCLocationManager.h */,
+				F1CEEF1020543B15005AB81D /* SCLocationManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +290,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F143399B204A1ADE00AA3A4B /* Build configuration list for PBXNativeTarget "Prototype" */;
 			buildPhases = (
+				F61FED7934594B28250E28AC /* [CP] Check Pods Manifest.lock */,
 				F143396A204A1ADE00AA3A4B /* Sources */,
 				F143396B204A1ADE00AA3A4B /* Frameworks */,
 				F143396C204A1ADE00AA3A4B /* Resources */,
+				0F12FC8AC63D6AD1B465823D /* [CP] Embed Pods Frameworks */,
+				CC85B1D4EF1E7EF7532565D9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +310,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F143399E204A1ADE00AA3A4B /* Build configuration list for PBXNativeTarget "PrototypeTests" */;
 			buildPhases = (
+				19FEB651B8D781C283818B1E /* [CP] Check Pods Manifest.lock */,
 				F1433983204A1ADE00AA3A4B /* Sources */,
 				F1433984204A1ADE00AA3A4B /* Frameworks */,
 				F1433985204A1ADE00AA3A4B /* Resources */,
+				1FFC2B62F07762E0FE770A65 /* [CP] Embed Pods Frameworks */,
+				DAA057C71135B9E79C7C9AEE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +331,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F14339A1204A1ADE00AA3A4B /* Build configuration list for PBXNativeTarget "PrototypeUITests" */;
 			buildPhases = (
+				258291B78019B5CB9E2E53C2 /* [CP] Check Pods Manifest.lock */,
 				F143398E204A1ADE00AA3A4B /* Sources */,
 				F143398F204A1ADE00AA3A4B /* Frameworks */,
 				F1433990204A1ADE00AA3A4B /* Resources */,
+				E6893C9356FD700FFDCD3186 /* [CP] Embed Pods Frameworks */,
+				A62433D07896CB31FEC12CEE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,9 +395,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F14339B9204A268E00AA3A4B /* SCHomeViewController.xib in Resources */,
 				F1433981204A1ADE00AA3A4B /* LaunchScreen.storyboard in Resources */,
+				F14339C02052845100AA3A4B /* SCHomeTableViewCell.xib in Resources */,
+				F1CEEF1620544686005AB81D /* SCExploreViewController.xib in Resources */,
 				F143397E204A1ADE00AA3A4B /* Assets.xcassets in Resources */,
-				F143397C204A1ADE00AA3A4B /* Main.storyboard in Resources */,
+				F1E116B720545D570080D28C /* SCPostDetailViewController.xib in Resources */,
+				F1CEEF0E205435AF005AB81D /* SCCreatePostViewController.xib in Resources */,
+				F1CEEF0620542B53005AB81D /* SCSignInViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +422,172 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F12FC8AC63D6AD1B465823D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Prototype/Pods-Prototype-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19FEB651B8D781C283818B1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrototypeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FFC2B62F07762E0FE770A65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrototypeTests/Pods-PrototypeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		258291B78019B5CB9E2E53C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrototypeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A62433D07896CB31FEC12CEE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrototypeUITests/Pods-PrototypeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC85B1D4EF1E7EF7532565D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Prototype/Pods-Prototype-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAA057C71135B9E79C7C9AEE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrototypeTests/Pods-PrototypeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6893C9356FD700FFDCD3186 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrototypeUITests/Pods-PrototypeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F61FED7934594B28250E28AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Prototype-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F143396A204A1ADE00AA3A4B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1433979204A1ADE00AA3A4B /* ViewController.m in Sources */,
+				F14339BF2052845100AA3A4B /* SCHomeTableViewCell.m in Sources */,
 				F1433976204A1ADE00AA3A4B /* AppDelegate.m in Sources */,
+				F14339C42052BB5200AA3A4B /* SCUserManager.m in Sources */,
+				F1CEEF0D205435AF005AB81D /* SCCreatePostViewController.m in Sources */,
+				F1CEEF1120543B15005AB81D /* SCLocationManager.m in Sources */,
 				F1433973204A1ADE00AA3A4B /* main.m in Sources */,
+				F14339CC2052C29800AA3A4B /* SCPostManager.m in Sources */,
+				F14339A6204A1D2300AA3A4B /* SCPost.m in Sources */,
+				F1CEEF1520544686005AB81D /* SCExploreViewController.m in Sources */,
+				F14339AD204A210B00AA3A4B /* SCTabBarController.m in Sources */,
+				F14339A9204A1E3B00AA3A4B /* SCUser.m in Sources */,
+				F14339B8204A268E00AA3A4B /* SCHomeViewController.m in Sources */,
+				F1CEEF0520542B53005AB81D /* SCSignInViewController.m in Sources */,
+				F1E116B620545D570080D28C /* SCPostDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +596,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F143398C204A1ADE00AA3A4B /* PrototypeTests.m in Sources */,
+				F14339BA205283B600AA3A4B /* SCHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +624,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F143397A204A1ADE00AA3A4B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F143397B204A1ADE00AA3A4B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F143397F204A1ADE00AA3A4B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -413,28 +721,31 @@
 		};
 		F143399C204A1ADE00AA3A4B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EA69965B724E6717CCB89E9 /* Pods-Prototype.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Prototype/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = laioffer.Prototype;
+				PRODUCT_BUNDLE_IDENTIFIER = Prototype;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		F143399D204A1ADE00AA3A4B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C69E20CE488B20274F1356F /* Pods-Prototype.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Prototype/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = laioffer.Prototype;
+				PRODUCT_BUNDLE_IDENTIFIER = Prototype;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 		F143399F204A1ADE00AA3A4B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10C0757EF0842C50CB5658CD /* Pods-PrototypeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PrototypeTests/Info.plist;
@@ -447,6 +758,7 @@
 		};
 		F14339A0204A1ADE00AA3A4B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33FAB1654CB7DFBC53BC00C6 /* Pods-PrototypeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PrototypeTests/Info.plist;
@@ -459,6 +771,7 @@
 		};
 		F14339A2204A1ADE00AA3A4B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 285A42F4EF835A3B004C103B /* Pods-PrototypeUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = PrototypeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -470,6 +783,7 @@
 		};
 		F14339A3204A1ADE00AA3A4B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18E9F33B40B3D177DA85D5F1 /* Pods-PrototypeUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = PrototypeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -498,6 +812,7 @@
 				F143399D204A1ADE00AA3A4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F143399E204A1ADE00AA3A4B /* Build configuration list for PBXNativeTarget "PrototypeTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +821,7 @@
 				F14339A0204A1ADE00AA3A4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F14339A1204A1ADE00AA3A4B /* Build configuration list for PBXNativeTarget "PrototypeUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +830,7 @@
 				F14339A3204A1ADE00AA3A4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

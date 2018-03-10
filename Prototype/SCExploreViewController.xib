@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SCExploreViewController">
+            <connections>
+                <outlet property="mapView" destination="VMR-Go-cvB" id="rly-uH-AKY"/>
+                <outlet property="reloadButton" destination="CXc-Xq-4gL" id="OW8-6q-274"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="VMR-Go-cvB">
+                    <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                </mapView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CXc-Xq-4gL">
+                    <rect key="frame" x="87.5" y="577" width="200" height="40"/>
+                    <color key="backgroundColor" red="0.61557374249999997" green="1" blue="0.53025123240000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="qLP-yb-gH2"/>
+                        <constraint firstAttribute="height" constant="40" id="ws2-ul-gap"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="Search This Area">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="VMR-Go-cvB" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="0T3-GH-2u3"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="VMR-Go-cvB" secondAttribute="trailing" id="NS3-lX-Xpd"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="CXc-Xq-4gL" secondAttribute="bottom" constant="50" id="rNu-fS-aMr"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="VMR-Go-cvB" secondAttribute="bottom" id="tC9-fH-eRp"/>
+                <constraint firstItem="VMR-Go-cvB" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="wrO-Mi-Qlx"/>
+                <constraint firstItem="CXc-Xq-4gL" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="zkF-2W-dzx"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="227" y="73"/>
+        </view>
+    </objects>
+</document>
